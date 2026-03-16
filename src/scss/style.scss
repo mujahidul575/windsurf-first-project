@@ -714,72 +714,165 @@ color: white;
 	border-radius:0 1rem 0 0;
 }
 
-.signup-section {
+.experience-section h2{
+  font-size:100px;
+}
+
+/* slider */
+.experience-slider{
+  overflow:hidden;
+  width:100%;
+  margin-top:40px;
+}
+
+.experience-track{
+  display:flex;
+  gap:40px;
+  width:max-content;
+  animation: marquee 20s linear infinite;
+}
+
+.experience-track img{
+  height:120px;
+  object-fit:cover;
+}
+
+/* right → left animation (news headline style) */
+@keyframes marquee{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(-50%);
+  }
+}
+
+
+.breaking-news-section{
+  background:black;
+}
+
+.breaking-news{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  color:white;
+}
+
+.label{
+  background:red;
+  padding:8px 20px;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.ticker{
+  overflow:hidden;
+  width:100%;
+}
+
+.ticker-track{
+  display:flex;
+  gap:60px;
+  white-space:nowrap;
+  width:max-content;
+  animation:tickerMove 15s linear infinite;
+}
+
+.ticker-track span{
+  font-size:16px;
+}
+
+/* infinite news scroll */
+@keyframes tickerMove{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(-50%);
+  }
+}
+
+
+
+
+/* Signup Section */
+.signup-section{
   background-image:url('../../dist/assets/img/sing up/section.png');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
-  color: white;
-  h2 {
-    font-size: 50px;
-    margin-bottom: 60px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  .signup-progress i {
-    font-size: 30px;
-  }
+  color:#fff;
 }
 
-
-
+/* title */
 .signup-title{
   font-size:70px;
   line-height:1.1;
-  margin-bottom:60px;
+  margin-bottom:70px;
 }
 
+/* bottom layout */
 .signup-bottom{
-  gap:40px;
+  gap:50px;
 }
 
+/* link */
 .signup-link{
   color:#fff;
   text-decoration:none;
   font-size:16px;
+  font-weight:500;
+  transition:0.3s;
 }
 
-/* progress */
+.signup-link:hover{
+  opacity:0.7;
+}
 
+/* progress area */
 .signup-progress{
   width:40%;
 }
 
+/* progress line */
 .progress-line{
-  height:3px;
-  background:#444;
-  margin:6px 0;
+  height:2px;
+  background:#555;
+  margin-top:10px;
   position:relative;
 }
 
+/* fill */
 .progress-fill{
   position:absolute;
-  height:100%;
-  background:#fff;
   left:0;
   top:0;
+  height:100%;
+  background:#fff;
 }
 
-.progress-fill.full{
-  width:100%;
+/* icon */
+.singup-icons i{
+  font-size:28px;
+  color:#fff;
 }
 
+/* responsive */
+@media(max-width:992px){
 
-.experience-section {
-
-  h2 {
-    font-size: 100px;
+  .signup-title{
+    font-size:50px;
   }
+
+  .signup-progress{
+    width:100%;
+  }
+
+  .signup-bottom{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:30px;
+  }
+
 }
