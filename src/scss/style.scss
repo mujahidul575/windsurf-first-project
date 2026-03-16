@@ -48,28 +48,858 @@ img {
     max-width: 100%;
 }
 
-/* Header Background */
+// {
+// /* Header Background */
+// header{
+//     background: black;
+//     color: white;
+// }
+
+// /* Navbar background */
+// header .navbar{
+//     background: black !important;
+// }
+
+// /* Menu text color */
+// header .navbar .nav-link{
+//     color: white !important;
+// }
+
+// /* Brand text */
+// header .navbar-brand{
+//     color: white !important;
+// }
+
+// /* Dropdown menu text */
+// header .dropdown-menu{
+//     background: black;
+// }
+
+// header .dropdown-menu .dropdown-item{
+//     color: white;
+// }
+
+// header .dropdown-menu .dropdown-item:hover{
+//     background: #222;
+// }
+
+// /* Header Auth Menu */
+// .auth-menu .auth-link{
+//     text-decoration: none;
+//     color: white;
+//     font-weight: 500;
+//     transition: 0.3s;
+// }
+
+// .auth-menu .auth-link:hover{
+//     color: #0d6efd;
+// }
+
+
+// /* Button */
+// .header-btn{
+//     padding: 7px 18px;
+//     font-weight: 500;
+// }
+
+// .menu-space{
+//     margin-left: 200px;
+// }
+
+// header h2 {
+// 	font-size: 80px;
+// }
+
+// .hero-section {
+//     background-image: url('../../dist/assets/img/hero-img/background.png');
+//     background-size: cover;
+//     background-position: center;
+//     color: white;
+//     height: 100%;
+//     position: relative;
+// }
+
+// .hero-main-image img {
+//     width: 100%;
+//     height: auto;
+// }
+
+// .hero-character {
+// 	position: absolute;
+// 	bottom: 0;
+// 	left: 11%;
+// 	opacity: 1;
+// }
+
+// .hero-character img {
+// 	width: 90%;
+// }
+
+// .hero-template {
+// 	opacity: 1;
+// 	position: absolute;
+// 	bottom: 0;
+// 	left: 11%;
+// }
+
+// .hero-template img {
+// 	width: 90%;
+// 	height: auto;
+// }
+
+
+// .world-section {
+//     background-color: #000;
+//     color: #fff;
+// }
+
+// /* icon link */
+
+// .rating-icon{
+//     text-decoration: none;
+//     margin-right: 12px;
+//     color: #22c55e;
+//     font-size: 35px;
+//     display: flex;
+//     align-items: center;
+// }
+
+// /* description text */
+
+// .rating-text {
+// 	font-size: 12px;
+// 	color: #cfcfcf;
+// 	margin-top: 5px;
+// }
+
+
+// .attendance-value{
+//     font-size: 26px;
+//     font-weight: 700;
+//     opacity: 1;
+// }
+
+// .attendance-text{
+//     opacity: .4;
+//     margin-left: 5px;
+// }
+// .features-section{
+//     position: relative;
+// }
+
+// .features-subtitle{
+// 	font-size: 40px;
+// }
+
+// .features-title{
+//     font-size: 190px;
+//     line-height: 1;
+//     letter-spacing: -2px;
+// }
+
+// /* main feature card */
+
+// .feature-card{
+//     position: relative;
+// }
+
+// /* content overlay */
+
+// .feature-content{
+// 	position: absolute;
+// 	top: 171px;
+// 	left: 89px;
+// 	color: #fff;
+// }
+
+// .feature-content p{
+//     font-size: 14px;
+// }
+
+// /* wide card */
+
+// .feature-card-wide img{
+// 	height: 500px;
+// 	width: 100%;
+// }
+
+
+// .feature-card-small img {
+// 	height: 500px;
+// 	width: 100%;
+// }
+// /* button */
+
+// .features-button{
+//     padding: 6px 10px;
+//     text-align: center;
+// }
+
+// .features-button a{
+//     text-decoration: none;
+//     color: #000;
+//     font-weight: 500;
+//     transition: 0.3s;
+// }
+
+// .features-button a:hover{
+//     color: #0d6efd;
+// }
+
+// /* button style */
+
+// .features-btn{
+//     display: inline-flex;
+//     align-items: center;
+//     gap: 6px;
+//     padding: 5px 20px;
+//     border: 1px solid #eacaca;
+//     text-decoration: none;
+//     color: #000;
+//     border-radius: 5rem;
+// }
+
+// /* testimonial card */
+
+// .feature-testimonial{
+//     position: relative;
+// }/* section */
+
+// .studio-section{
+//     background: #000;
+//     color: #fff;
+// }
+
+// /* header */
+
+// .studio-header h2{
+//     font-size: 202px;
+//     line-height: 1;
+//     letter-spacing: -2px;
+// }
+
+// /* common card */
+
+// .studio-feature-card{
+//     background-color: #5d5858;
+//     padding: 20px 20px 0;
+// }
+
+// /* common image */
+
+// .studio-feature-card img{
+//     width: 100%;
+//     object-fit: cover;
+// }
+
+// /* welcome studio */
+
+// .studio-feature-studio img{
+//     height: 250px;
+//     margin-left: 20px;
+// }
+
+// /* stage kit */
+
+// .studio-feature-stage img {
+// 	height: 275px;
+// }
+
+// /* green room */
+
+// .studio-feature-greenroom img {
+// 	height: 299px;
+// }
+// /* button */
+
+// .studio-button a{
+//     color: #fff;
+//     text-decoration: none;
+//     padding: 5px 20px;
+//     border: 1px solid #eacaca;
+//     border-radius: 5rem;
+// }
+
+// .studio-button {
+// 	margin: 60px 0 100px 0;
+// }
+
+// /* Section spacing */
+// .revenue-content {
+// 	margin: 123px 0;
+// }
+
+// /* Main title (Drive / Revenue) */
+// .revenue-content h2{
+//   font-size: 140px;
+//   line-height: 1;
+//   font-weight: 700;
+// }
+
+// /* Review stats */
+// .review-stats{
+//   margin-bottom: 40px;
+// }
+
+// .review-stats h2{
+//   font-size: 64px;
+//   font-weight: 700;
+//   margin-bottom: 10px;
+// }
+
+// .review-stats h6{
+//   font-size: 16px;
+//   font-weight: 600;
+// }
+
+// .review-stats p{
+//   font-size: 13px;
+//   color: #6c757d;
+//   margin-bottom: 20px;
+// }
+
+// /* line style */
+// .review-stats hr{
+//   margin: 0;
+//   opacity: 0.2;
+// }
+
+// /* Section title */
+// .process-header h2{
+//   font-size: 94px;
+//   font-weight: 700;
+//   margin-bottom: 10px;
+// }
+
+// .step-title a {
+// text-decoration: none;
+// color: black;
+// }
+
+// /* Learn more button */
+// .process-action a{
+//   text-decoration: none;
+//   padding: 8px 20px;
+//   background-color: blue;
+//   color: #fff;
+//   border: 1px solid rgb(121, 107, 107);
+//   border-radius: 50px;
+//   display: inline-block;
+// }
+
+// /* Step title */
+// .step-heading h2{
+//   font-size: 47px;
+//   font-weight: 700;
+// }
+
+// /* Step image */
+// .step-media img{
+//   width: 100%;
+//   display: block;
+// }
+
+// /* Section background */
+// .integration-section{
+//   background: #F5F5F5;
+// }
+
+// /* Title */
+// .integration-title{
+//   font-size: 94px;
+//   font-weight: 700;
+// }
+
+// /* Logo layout */
+// .integration-logos{
+//   display: flex;
+//   gap: 20px;
+// }
+
+// /* Each column */
+// .logo-column{
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px;   /* images closer */
+// }
+
+
+// /* Text */
+// .integration-text{
+//   font-size: 20px;
+//   line-height: 1.6;
+// }
+
+
+// /* Logo container */
+// .integration-logos{
+//   display: flex;
+//   gap: 10px;            /* দুই কলামের মাঝে কম ফাঁকা */
+// }
+
+// /* Column layout */
+// .logo-column{
+//   display: flex;
+//   flex-direction: column;
+//   gap: 6px;             /* ইমেজগুলোর মাঝে কম ফাঁকা */
+// }
+
+// /* Image size bigger */
+// .logo-column img {
+// 	width: 100%;
+// 	display: block;
+// }
+// .loved-trusted-section {
+//   background-image: url('../../dist/assets/img/loved/background.png');
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   color: #fff;
+//   padding: 100px 0;
+// }
+
+// .loved-trusted-header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-end;
+// }
+
+// .loved-trusted-header h2 {
+//   font-size: 6rem;
+//   font-weight: 700;
+// }
+
+// .swiper-icons {
+//   display: flex;
+//   gap: 20px;
+//   align-self: flex-end; /* move icons to bottom */
+// }
+
+// .swiper-icons i {
+//   font-size: 45px;
+//   cursor: pointer;
+// }
+
+// /* Swiper Slides */
+// .swiper-slide {
+//   width: 40%;  /* partial preview + side-by-side */
+// }
+
+// .testimonial-card {
+//   background: rgba(0,0,0,0.5);
+//   padding: 30px;
+//   border-radius: 12px;
+//   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   border-top: 1px solid #fff;
+//   border-right: 1px solid #fff;
+// }
+
+// .testimonial-card h4,
+// .testimonial-card p {
+//   font-size: 16px;
+//   margin-bottom: 15px;
+//   line-height: 1.5;
+//   color: #fff;
+// }
+
+// .ally {
+//   display: flex;
+//   align-items: center;
+//   gap: 15px;
+// }
+
+// .ally-img img {
+//   width: 60px;
+//   height: 60px;
+//   border-radius: 50%;
+//   object-fit: cover;
+// }
+
+// .ally-content h5 {
+//   margin-bottom: 5px;
+//   font-size: 16px;
+//   font-weight: 600;
+// }
+
+// .ally-content p {
+//   font-size: 12px;
+//   color: #ccc;
+//   margin: 0;
+// }
+
+// .ally-logo img {
+//   width: 80px;
+//   margin-top: 10px;
+// }
+
+// /* Responsive */
+// @media(max-width:992px){
+//   .swiper-slide{
+//     width:70% !important;
+//   }
+// }
+
+// @media(max-width:576px){
+//   .swiper-slide{
+//     width:90% !important;
+//   }
+// }
+
+// .webiner-section {
+//   padding: 100px 0;
+// background-color: black;
+// color: white;
+// }
+
+// .platform-title {
+//   font-size: 2rem;
+//   font-weight: 600;
+//   line-height: 1.5;
+
+// }
+
+// .endless-text h2 {
+//   font-size: 7rem;
+//   font-weight: 700;
+//   line-height: 1;
+//   margin-bottom: 0;
+// }
+
+// .endless-text h2.text-end {
+//   text-align: right;
+// }
+
+// /* Responsive */
+// @media(max-width:992px){
+//   .endless-text h2{
+//     font-size: 5rem;
+//   }
+// }
+
+// @media(max-width:576px){
+//   .endless-text h2{
+//     font-size: 3.5rem;
+//     text-align: left;
+//   }
+
+//   .platform-title{
+//     text-align: left;
+//     font-size: 1.5rem;
+//   }
+// }
+// .event-platform-section{
+//   padding:100px 0;
+//   background:#000;
+//   color:#fff;
+// }
+
+// .platform-label{
+//   font-size:2rem;
+//   font-weight:600;
+//   line-height:1.5;
+// }
+
+// .platform-title-group h2{
+//   font-size:7rem;
+//   font-weight:700;
+//   line-height:1;
+// }
+
+// .title-secondary{
+//   text-align:right;
+// }
+
+// /* menu */
+// .event-type-list{
+//   margin:110px 0 35px;
+// }
+
+// .event-type-list ul li{
+//   margin:30px 0;
+//   opacity:.6;
+//   transition:.3s;
+// }
+
+// .event-type-list ul li.active{
+//   opacity:1;
+// }
+
+// .event-type-list ul li a{
+//   text-decoration:none;
+//   color:#fff;
+// }
+
+// /* responsive */
+
+// @media(max-width:992px){
+
+//   .platform-title-group h2{
+//     font-size:5rem;
+//   }
+
+// }
+
+// @media(max-width:576px){
+
+//   .platform-title-group h2{
+//     font-size:3.5rem;
+//     text-align:left;
+//   }
+
+//   .platform-label{
+//     text-align:left;
+//     font-size:1.5rem;
+//   }
+
+// }
+
+
+// .recent-card a {
+//   text-decoration: none;
+// }
+
+// .recent-card .card {
+// 	border: none;
+// }
+
+// .recent-card .card-img-top {
+// 	border-radius: 0px 40px 0 0;
+// }
+
+
+
+// .join-section{
+//   background:#000;
+// }
+
+// .join-wrapper{
+//   display:flex;
+//   align-items:flex-end;
+//   justify-content:space-between;
+//   padding-bottom:15px;
+// }
+
+// .join-title{
+//   font-size:80px;
+//   font-weight:700;
+//   color:#fff;
+//   margin:0;
+// }
+
+// .join-btn .btn-learn {
+// 	color: #fff;
+// 	text-decoration: none;
+// 	font-weight: 500;
+// 	padding: 6px 20px;
+// 	border: 1px solid #8b7e7e;
+// 	border-radius: 5rem;
+// }
+
+
+// .join-card .card {
+// 	background: black;
+// 	color: white;
+// }
+
+// .join-card h2 {
+//   font-size: 40px;
+// }
+
+// .join-card {
+// 	border-top: 2px solid white;
+// 	border-right: 2px solid white;
+// 	border-radius:0 1rem 0 0;
+// }
+
+// .experience-section h2{
+//   font-size:100px;
+// }
+
+// /* slider */
+// .experience-slider{
+//   overflow:hidden;
+//   width:100%;
+//   margin-top:40px;
+// }
+
+// .experience-track{
+//   display:flex;
+//   gap:40px;
+//   width:max-content;
+//   animation: marquee 20s linear infinite;
+// }
+
+// .experience-track img{
+//   height:120px;
+//   object-fit:cover;
+// }
+
+// /* right → left animation (news headline style) */
+// @keyframes marquee{
+//   0%{
+//     transform:translateX(0);
+//   }
+//   100%{
+//     transform:translateX(-50%);
+//   }
+// }
+
+
+// .breaking-news-section{
+//   background:black;
+// }
+
+// .breaking-news{
+//   display:flex;
+//   align-items:center;
+//   gap:20px;
+//   color:white;
+// }
+
+// .label{
+//   background:red;
+//   padding:8px 20px;
+//   font-weight:700;
+//   white-space:nowrap;
+// }
+
+// .ticker{
+//   overflow:hidden;
+//   width:100%;
+// }
+
+// .ticker-track{
+//   display:flex;
+//   gap:60px;
+//   white-space:nowrap;
+//   width:max-content;
+//   animation:tickerMove 15s linear infinite;
+// }
+
+// .ticker-track span{
+//   font-size:16px;
+// }
+
+// /* infinite news scroll */
+// @keyframes tickerMove{
+//   0%{
+//     transform:translateX(0);
+//   }
+//   100%{
+//     transform:translateX(-50%);
+//   }
+// }
+
+
+
+
+// /* Signup Section */
+// .signup-section{
+//   background-image:url('../../dist/assets/img/sing up/section.png');
+//   background-size:cover;
+//   background-position:center;
+//   background-repeat:no-repeat;
+//   color:#fff;
+// }
+
+// /* title */
+// .signup-title{
+//   font-size:70px;
+//   line-height:1.1;
+//   margin-bottom:70px;
+// }
+
+// /* bottom layout */
+// .signup-bottom{
+//   gap:50px;
+// }
+
+// /* link */
+// .signup-link{
+//   color:#fff;
+//   text-decoration:none;
+//   font-size:16px;
+//   font-weight:500;
+//   transition:0.3s;
+// }
+
+// .signup-link:hover{
+//   opacity:0.7;
+// }
+
+// /* progress area */
+// .signup-progress{
+//   width:40%;
+// }
+
+// /* progress line */
+// .progress-line{
+//   height:2px;
+//   background:#555;
+//   margin-top:10px;
+//   position:relative;
+// }
+
+// /* fill */
+// .progress-fill{
+//   position:absolute;
+//   left:0;
+//   top:0;
+//   height:100%;
+//   background:#fff;
+// }
+
+// /* icon */
+// .singup-icons i{
+//   font-size:28px;
+//   color:#fff;
+// }
+
+// /* responsive */
+// @media(max-width:992px){
+
+//   .signup-title{
+//     font-size:50px;
+//   }
+
+//   .signup-progress{
+//     width:100%;
+//   }
+
+//   .signup-bottom{
+//     flex-direction:column;
+//     align-items:flex-start;
+//     gap:30px;
+//   }
+
+// }
+
+// }
+
+
+
+/* 1. Header / Hero Section */
 header{
     background: black;
     color: white;
 }
 
-/* Navbar background */
 header .navbar{
     background: black !important;
 }
 
-/* Menu text color */
 header .navbar .nav-link{
     color: white !important;
 }
 
-/* Brand text */
 header .navbar-brand{
     color: white !important;
 }
 
-/* Dropdown menu text */
 header .dropdown-menu{
     background: black;
 }
@@ -82,7 +912,6 @@ header .dropdown-menu .dropdown-item:hover{
     background: #222;
 }
 
-/* Header Auth Menu */
 .auth-menu .auth-link{
     text-decoration: none;
     color: white;
@@ -94,8 +923,6 @@ header .dropdown-menu .dropdown-item:hover{
     color: #0d6efd;
 }
 
-
-/* Button */
 .header-btn{
     padding: 7px 18px;
     font-weight: 500;
@@ -147,40 +974,78 @@ header h2 {
 }
 
 
+
+/* 2. World / Features Section */
+/* World Section */
 .world-section {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 0;
 }
 
-/* icon link */
-
-.rating-icon{
-    text-decoration: none;
-    margin-right: 12px;
-    color: #22c55e;
-    font-size: 35px;
-    display: flex;
-    align-items: center;
+.world-section h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 
-/* description text */
+.world-section p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.world-rating ul {
+  padding: 0;
+  margin: 0;
+}
+
+.rating-icon {
+  font-size: 1.5rem;
+  color: #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attendance-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.attendance-text {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
 
 .rating-text {
-	font-size: 12px;
-	color: #cfcfcf;
-	margin-top: 5px;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #aaa;
 }
 
-
-.attendance-value{
-    font-size: 26px;
-    font-weight: 700;
-    opacity: 1;
+/* World Image */
+.world-menu img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem; /* optional rounded corners */
 }
 
-.attendance-text{
-    opacity: .4;
-    margin-left: 5px;
+/* Responsive */
+@media (max-width: 992px) {
+  .world-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .world-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .world-rating ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 .features-section{
     position: relative;
@@ -196,13 +1061,9 @@ header h2 {
     letter-spacing: -2px;
 }
 
-/* main feature card */
-
 .feature-card{
     position: relative;
 }
-
-/* content overlay */
 
 .feature-content{
 	position: absolute;
@@ -215,19 +1076,15 @@ header h2 {
     font-size: 14px;
 }
 
-/* wide card */
-
 .feature-card-wide img{
 	height: 500px;
 	width: 100%;
 }
 
-
 .feature-card-small img {
 	height: 500px;
 	width: 100%;
 }
-/* button */
 
 .features-button{
     padding: 6px 10px;
@@ -245,8 +1102,6 @@ header h2 {
     color: #0d6efd;
 }
 
-/* button style */
-
 .features-btn{
     display: inline-flex;
     align-items: center;
@@ -258,18 +1113,16 @@ header h2 {
     border-radius: 5rem;
 }
 
-/* testimonial card */
-
 .feature-testimonial{
     position: relative;
-}/* section */
+}
 
+
+/* 3. Studio Section */
 .studio-section{
     background: #000;
     color: #fff;
 }
-
-/* header */
 
 .studio-header h2{
     font-size: 202px;
@@ -277,39 +1130,28 @@ header h2 {
     letter-spacing: -2px;
 }
 
-/* common card */
-
 .studio-feature-card{
     background-color: #5d5858;
     padding: 20px 20px 0;
 }
-
-/* common image */
 
 .studio-feature-card img{
     width: 100%;
     object-fit: cover;
 }
 
-/* welcome studio */
-
 .studio-feature-studio img{
     height: 250px;
     margin-left: 20px;
 }
 
-/* stage kit */
-
 .studio-feature-stage img {
 	height: 275px;
 }
 
-/* green room */
-
 .studio-feature-greenroom img {
 	height: 299px;
 }
-/* button */
 
 .studio-button a{
     color: #fff;
@@ -323,19 +1165,19 @@ header h2 {
 	margin: 60px 0 100px 0;
 }
 
-/* Section spacing */
+
+
+/* 4. Revenue / Process / Integration / Loved Sections */
 .revenue-content {
 	margin: 123px 0;
 }
 
-/* Main title (Drive / Revenue) */
 .revenue-content h2{
   font-size: 140px;
   line-height: 1;
   font-weight: 700;
 }
 
-/* Review stats */
 .review-stats{
   margin-bottom: 40px;
 }
@@ -357,13 +1199,11 @@ header h2 {
   margin-bottom: 20px;
 }
 
-/* line style */
 .review-stats hr{
   margin: 0;
   opacity: 0.2;
 }
 
-/* Section title */
 .process-header h2{
   font-size: 94px;
   font-weight: 700;
@@ -371,11 +1211,10 @@ header h2 {
 }
 
 .step-title a {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 
-/* Learn more button */
 .process-action a{
   text-decoration: none;
   padding: 8px 20px;
@@ -386,68 +1225,41 @@ color: black;
   display: inline-block;
 }
 
-/* Step title */
 .step-heading h2{
   font-size: 47px;
   font-weight: 700;
 }
 
-/* Step image */
 .step-media img{
   width: 100%;
   display: block;
 }
 
-/* Section background */
 .integration-section{
   background: #F5F5F5;
 }
 
-/* Title */
 .integration-title{
   font-size: 94px;
   font-weight: 700;
 }
 
-/* Logo layout */
 .integration-logos{
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
-/* Each column */
 .logo-column{
   display: flex;
   flex-direction: column;
-  gap: 12px;   /* images closer */
+  gap: 6px;
 }
 
-
-/* Text */
-.integration-text{
-  font-size: 20px;
-  line-height: 1.6;
-}
-
-
-/* Logo container */
-.integration-logos{
-  display: flex;
-  gap: 10px;            /* দুই কলামের মাঝে কম ফাঁকা */
-}
-
-/* Column layout */
-.logo-column{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;             /* ইমেজগুলোর মাঝে কম ফাঁকা */
-}
-
-/* Image size bigger */
 .logo-column img {
 	width: 100%;
 	display: block;
 }
+
 .loved-trusted-section {
   background-image: url('../../dist/assets/img/loved/background.png');
   background-size: cover;
@@ -471,7 +1283,7 @@ color: black;
 .swiper-icons {
   display: flex;
   gap: 20px;
-  align-self: flex-end; /* move icons to bottom */
+  align-self: flex-end;
 }
 
 .swiper-icons i {
@@ -479,9 +1291,8 @@ color: black;
   cursor: pointer;
 }
 
-/* Swiper Slides */
 .swiper-slide {
-  width: 40%;  /* partial preview + side-by-side */
+  width: 40%;
 }
 
 .testimonial-card {
@@ -495,14 +1306,6 @@ color: black;
   justify-content: space-between;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
-}
-
-.testimonial-card h4,
-.testimonial-card p {
-  font-size: 16px;
-  margin-bottom: 15px;
-  line-height: 1.5;
-  color: #fff;
 }
 
 .ally {
@@ -535,30 +1338,19 @@ color: black;
   margin-top: 10px;
 }
 
-/* Responsive */
-@media(max-width:992px){
-  .swiper-slide{
-    width:70% !important;
-  }
-}
 
-@media(max-width:576px){
-  .swiper-slide{
-    width:90% !important;
-  }
-}
 
+/* 5. Webinar / Event / Recent Sections */
 .webiner-section {
   padding: 100px 0;
-background-color: black;
-color: white;
+  background-color: black;
+  color: white;
 }
 
 .platform-title {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.5;
-
 }
 
 .endless-text h2 {
@@ -572,24 +1364,6 @@ color: white;
   text-align: right;
 }
 
-/* Responsive */
-@media(max-width:992px){
-  .endless-text h2{
-    font-size: 5rem;
-  }
-}
-
-@media(max-width:576px){
-  .endless-text h2{
-    font-size: 3.5rem;
-    text-align: left;
-  }
-
-  .platform-title{
-    text-align: left;
-    font-size: 1.5rem;
-  }
-}
 .event-platform-section{
   padding:100px 0;
   background:#000;
@@ -612,7 +1386,6 @@ color: white;
   text-align:right;
 }
 
-/* menu */
 .event-type-list{
   margin:110px 0 35px;
 }
@@ -632,31 +1405,6 @@ color: white;
   color:#fff;
 }
 
-/* responsive */
-
-@media(max-width:992px){
-
-  .platform-title-group h2{
-    font-size:5rem;
-  }
-
-}
-
-@media(max-width:576px){
-
-  .platform-title-group h2{
-    font-size:3.5rem;
-    text-align:left;
-  }
-
-  .platform-label{
-    text-align:left;
-    font-size:1.5rem;
-  }
-
-}
-
-
 .recent-card a {
   text-decoration: none;
 }
@@ -671,6 +1419,7 @@ color: white;
 
 
 
+/* 6. Join / Experience / Breaking News / Signup Sections */
 .join-section{
   background:#000;
 }
@@ -698,7 +1447,6 @@ color: white;
 	border-radius: 5rem;
 }
 
-
 .join-card .card {
 	background: black;
 	color: white;
@@ -718,7 +1466,6 @@ color: white;
   font-size:100px;
 }
 
-/* slider */
 .experience-slider{
   overflow:hidden;
   width:100%;
@@ -737,7 +1484,6 @@ color: white;
   object-fit:cover;
 }
 
-/* right → left animation (news headline style) */
 @keyframes marquee{
   0%{
     transform:translateX(0);
@@ -748,15 +1494,10 @@ color: white;
 }
 
 
-.breaking-news-section{
-  background:black;
-}
-
 .breaking-news{
   display:flex;
   align-items:center;
   gap:20px;
-  color:white;
 }
 
 .label{
@@ -783,7 +1524,6 @@ color: white;
   font-size:16px;
 }
 
-/* infinite news scroll */
 @keyframes tickerMove{
   0%{
     transform:translateX(0);
@@ -793,10 +1533,6 @@ color: white;
   }
 }
 
-
-
-
-/* Signup Section */
 .signup-section{
   background-image:url('../../dist/assets/img/sing up/section.png');
   background-size:cover;
@@ -805,19 +1541,16 @@ color: white;
   color:#fff;
 }
 
-/* title */
 .signup-title{
   font-size:70px;
   line-height:1.1;
   margin-bottom:70px;
 }
 
-/* bottom layout */
 .signup-bottom{
   gap:50px;
 }
 
-/* link */
 .signup-link{
   color:#fff;
   text-decoration:none;
@@ -830,12 +1563,10 @@ color: white;
   opacity:0.7;
 }
 
-/* progress area */
 .signup-progress{
   width:40%;
 }
 
-/* progress line */
 .progress-line{
   height:2px;
   background:#555;
@@ -843,7 +1574,6 @@ color: white;
   position:relative;
 }
 
-/* fill */
 .progress-fill{
   position:absolute;
   left:0;
@@ -852,13 +1582,11 @@ color: white;
   background:#fff;
 }
 
-/* icon */
 .singup-icons i{
   font-size:28px;
   color:#fff;
 }
 
-/* responsive */
 @media(max-width:992px){
 
   .signup-title{
@@ -875,4 +1603,34 @@ color: white;
     gap:30px;
   }
 
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: black;
+  color: white;
+}
+
+/* Footer Links */
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links .active {
+  opacity: 0.5;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 170px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: white;
 }
